@@ -63,8 +63,46 @@ command+/のショートカットを利用すると良い。
 <sub>下付き文字要素
 「下付き文字を表すことができる。化学式を書くときなどに有用。」
 
+<table> 表要素
+「この要素の中に入れる要素はたくさんあるここではよく使うであろう要素をメモしておく。」
+参考サイト「mdn web docs」:https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/table
 
+<td>表データセル要素
+「表でデータを包含するセルを定義できる。」
 
+<th>表のヘッダー要素
+「表のヘッダーであるセルを定義する。」
+
+<tr>表行要素
+「表内で、セルの行を定義できる。　<td>,<th>要素はこの要素の中に書く」
+例
+  <tr>
+    <th>名前</th>
+    <th>身長(cm)</th>
+    <th>体重(kg)</th>
+  </tr>
+
+  <tr>
+    <td>Takaoka</td>
+    <td>170</td>
+    <td>65</td>
+  </tr>
+
+  <tr>
+    <td>Sasaki</td>
+    <td>176</td>
+    <td>69</td>
+  </tr>
+
+<form>フォーム要素
+「Webサーバに情報を送信するための対話型コントロール（入力欄、チェックボックス、etc）を含む区間を表す。
+  action属性でどこに情報を送るかを指定できる。」
+
+<input>フォーム入力要素
+「type属性を使うことによって、さまざまなフォームコントロールができる。　input要素は20以上もの種類がある。
+例えば type="text"　でテキストボックス、 type="pasword"　で入力した内容が見えないテキストボックスなど。
+また、placeholder属性で、何を入力する項目なのかを表示することもできる。」
+参考サイト「mdn web docs」:　https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/input
 
 
 
