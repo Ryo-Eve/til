@@ -104,6 +104,23 @@ command+/のショートカットを利用すると良い。
 また、placeholder属性で、何を入力する項目なのかを表示することもできる。」
 参考サイト「mdn web docs」:　https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/input
 
+<label>ラベル要素
+「チェックボックスなどにラベルを追加し、何のチェックボックスなのかの文を追加できる。」
+例
+  <label for="cheese"> Do you like cheese?</label>
+  <input type="checkbox" name="cheese" id="cheese">
+
+とすることで、チェックボックスに「Do you like cheese?」というラベルを追加できる。
+
+また、
+
+<label>Do you like cheese?
+  <input type="checkbox" name="cheese">
+</label>
+
+のように
+<label>タグの中に<input>タグを直接入れることで、idなしでも関連づけることができる。
+
 
 
 
